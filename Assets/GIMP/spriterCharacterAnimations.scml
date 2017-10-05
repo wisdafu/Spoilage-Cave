@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="characterBodyFWD.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="characterLegFWD.png" width="40" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="characterBodyBWD.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="characterLegBWD.png" width="40" height="40" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="character">
+        <animation id="0" name="Walk BWD Animation" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="2" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="3" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="characterBodyBWD">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-63.73057" y="63.73057"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="characterLegBWD">
+                <key id="0">
+                    <object folder="0" file="3" x="15.420078" y="-36.248469" pivot_x="0.523938" pivot_y="0.841133"/>
+                </key>
+                <key id="1" time="100" spin="-1">
+                    <object folder="0" file="3" x="15.420078" y="-36.248469" pivot_x="0.523938" pivot_y="0.841133" angle="45.52919" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="200" spin="-1">
+                    <object folder="0" file="3" x="15.420078" y="-36.248469" pivot_x="0.523938" pivot_y="0.841133" angle="0" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="3" time="300">
+                    <object folder="0" file="3" x="15.420078" y="-36.248469" pivot_x="0.523938" pivot_y="0.841133" angle="307.05205" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="characterLegBWD_000">
+                <key id="0" spin="-1">
+                    <object folder="0" file="3" x="-8.135852" y="-35.848072" pivot_x="0.527744" pivot_y="0.826836"/>
+                </key>
+                <key id="1" time="100">
+                    <object folder="0" file="3" x="-8.135852" y="-35.848072" pivot_x="0.527744" pivot_y="0.826836" angle="314.950358" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object folder="0" file="3" x="-8.135852" y="-35.848072" pivot_x="0.527744" pivot_y="0.826836" angle="0" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="3" time="300" spin="-1">
+                    <object folder="0" file="3" x="-8.135852" y="-35.848072" pivot_x="0.527744" pivot_y="0.826836" angle="53.972382" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Walk Animation" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="2" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="3" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="characterBodyFWD">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-63.545455" y="63.753247"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="characterLegFWD">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="-12.398031" y="-35.586777" pivot_x="0.466544" pivot_y="0.85399" angle="0.606757"/>
+                </key>
+                <key id="1" time="100">
+                    <object folder="0" file="1" x="-12.398031" y="-35.586777" pivot_x="0.466544" pivot_y="0.85399" angle="317.397288" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object folder="0" file="1" x="-12.398031" y="-35.586777" pivot_x="0.466544" pivot_y="0.85399" angle="0" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="3" time="300" spin="-1">
+                    <object folder="0" file="1" x="-12.398031" y="-35.586777" pivot_x="0.466544" pivot_y="0.85399" angle="49.199307" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="characterLegFWD_000">
+                <key id="0">
+                    <object folder="0" file="1" x="9.865108" y="-35.590324" pivot_x="0.479452" pivot_y="0.857163"/>
+                </key>
+                <key id="1" time="100" spin="-1">
+                    <object folder="0" file="1" x="9.865108" y="-35.590324" pivot_x="0.479452" pivot_y="0.857163" angle="33.147535" scale_y="1"/>
+                </key>
+                <key id="2" time="200" spin="-1">
+                    <object folder="0" file="1" x="9.865108" y="-35.590324" pivot_x="0.479452" pivot_y="0.857163" angle="0" scale_y="1"/>
+                </key>
+                <key id="3" time="300">
+                    <object folder="0" file="1" x="9.865108" y="-35.590324" pivot_x="0.479452" pivot_y="0.857163" angle="304.746" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
